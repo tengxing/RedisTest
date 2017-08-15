@@ -24,5 +24,6 @@ public class JedisSentinelTest {
             String value = jedis.get("foo"+i);
             //jedisCluster.del("foo"+i);
         }
+        System.out.println("Jedis集群客户端测试成果");
     }
 }
